@@ -1,0 +1,24 @@
+.footer {
+  height: 15vh;
+  margin: 0 2rem;
+  border-top: 1px solid #ffffff;
+
+  .footer__nav {
+    display: flex;
+    margin: 1rem 0;
+
+    @media screen and (max-width: 375px){
+      flex-direction: column;
+    }
+
+    .footer__nav-list-col-1 {
+      width: 65%;
+    }
+  }
+}
+
+.footer__nav-list-item a {
+  &:hover {
+    color: $lightGrey;
+  }
+}

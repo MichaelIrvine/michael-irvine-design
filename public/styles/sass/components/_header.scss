@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  padding: 2rem;
+
+  @media screen and (max-width: 625px) {
+    flex-direction: column;
+  }
+
+  .branding {
+    width: 100%;
+
+    button {
+      h1 {
+        &:hover {
+          color: $lightGrey;
+        }
+      }
+    }
+  }
+
+  .nav {
+    display: flex;
+    width: 100%;
+
+    .nav__list {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      padding-top: 0.45rem;
+
+      @media screen and (max-width: 625px) {
+        justify-content: flex-end;
+        margin-top: 1rem;
+      }
+
+      .nav__list-item {
+        padding: 0 16px;
+
+        button {
+          h2 {
+            &:hover {
+              color: $lightGrey;
+            }
+          }
+        }
+      }
+
+      .nav__list-item--circle {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50px;
+        background-color: #000000;
+        visibility: hidden;
+      }
+
+      .nav__list-item--circle.active {
+        background-color: #ffffff;
+        visibility: visible;
+      }
+    }
+  }
+}
