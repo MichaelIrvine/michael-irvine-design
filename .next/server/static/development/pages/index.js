@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -113,21 +113,21 @@ function index() {
     className: "home _wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 3
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 4
     },
     __self: this
-  }, "Michael Irvine is a creative front end developer based in Vancouver, Canada."));
+  }, "Michael Irvine is a creative front end developer with a strong interest in beautiful digital design, wonderful typography and thoughtful user interactions."));
 }
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

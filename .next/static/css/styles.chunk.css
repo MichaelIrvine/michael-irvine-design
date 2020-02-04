@@ -119,6 +119,9 @@ span {
   line-height: 1.2;
   letter-spacing: 1px; }
 
+.home p {
+  font-size: 3em; }
+
 .work__header-item span {
   font-size: 1rem; }
 

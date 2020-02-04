@@ -39,7 +39,6 @@ a {
   text-decoration: none;
 }
 span {
-  // font-size: 2rem;
   font-family: $font__main;
 }
 
@@ -50,9 +49,12 @@ h3,
 p,
 span {
   color: $font__main--color;
-  // font-weight: $fw300;
   line-height: 1.2;
   letter-spacing: 1px;
+}
+
+.home p {
+  font-size: 3em;
 }
 
 .work__header-item span{

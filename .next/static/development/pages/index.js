@@ -54,21 +54,21 @@ function index() {
     className: "home _wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 3
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 4
     },
     __self: this
-  }, "Michael Irvine is a creative front end developer based in Vancouver, Canada."));
+  }, "Michael Irvine is a creative front end developer with a strong interest in beautiful digital design, wonderful typography and thoughtful user interactions."));
 }
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!***********************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmichaelirvine%2FDesktop%2F_%2F_P%2FCODE%2FJAVASCRIPT%2FREACT%2Fmichael-irvine-design%2Fpages%2Findex.js ***!
   \***********************************************************************************************************************************************************************************/
@@ -91,5 +91,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

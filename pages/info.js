@@ -10,12 +10,14 @@ export default function info() {
       </div>
       <div className="info__column-02">
         <p className="info__info-paragraph">
-          Michael Irvine quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        Michael Irvine is based in Vancouver, Canada and works as a creative front end developer.
+        Michael's experience and knowledge in graphic design and photography lends to a design driven approach to front end development.
         </p>
+        <br />
+        <p className="info__info-paragraph">
+          Michael is currently available for hire and is open to remote or local positions, contract or full-time positions.
+        </p>
+
       </div>
     </div>
   );
