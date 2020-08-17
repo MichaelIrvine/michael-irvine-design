@@ -1,9 +1,11 @@
 .header {
   display: flex;
   padding: 2rem;
+  flex: 1;
 
   @media screen and (max-width: 625px) {
     flex-direction: column;
+    margin-bottom: 2rem;
   }
 
   .branding {

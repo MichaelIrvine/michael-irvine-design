@@ -160,7 +160,7 @@ button {
   padding: 0; }
 
 .app {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column; }
 
@@ -269,10 +269,12 @@ button {
 
 .header {
   display: flex;
-  padding: 2rem; }
+  padding: 2rem;
+  flex: 1; }
   @media screen and (max-width: 625px) {
     .header {
-      flex-direction: column; } }
+      flex-direction: column;
+      margin-bottom: 2rem; } }
   .header .branding {
     width: 100%; }
     .header .branding button h1:hover {
@@ -306,7 +308,8 @@ button {
 .footer {
   height: 15vh;
   margin: 0 2rem;
-  border-top: 1px solid #ffffff; }
+  border-top: 1px solid #ffffff;
+  margin-bottom: 2rem; }
   .footer .footer__nav {
     display: flex;
     margin: 1rem 0; }
