@@ -4,21 +4,23 @@ $darkGrey: #969696;
 
 @import 'typography';
 
-body, html, a, button, * {
-	cursor: none;
+body,
+html,
+a,
+button,
+* {
+  cursor: none;
 
-	@media screen and (max-width: 768px){
-		cursor: default;
-	}
+  @media screen and (max-width: 768px) {
+    cursor: default;
+  }
 }
 
 body {
-  // background-color: #000000;
-  background-color: #021301;
-  
+  background-color: #000000;
 }
 
-button { 
+button {
   padding: 0;
 }
 
@@ -35,5 +37,5 @@ button {
 }
 
 .page-transition-enter-done {
-  flex:1;
+  flex: 1;
 }
