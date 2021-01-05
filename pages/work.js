@@ -2,6 +2,7 @@ import ImageAndi from '../public/images/andi-mcleish.jpg';
 import ImageChrono from '../public/images/chronometer-app.jpg';
 import ImageSeeker from '../public/images/image-seeker-app.jpg';
 import ImageEast29 from '../public/images/east-29th.jpg';
+import ImageFocusWP from '../public/images/focus-wp-gatsby.theme.jpg';
 
 export default function work() {
   return (
@@ -16,6 +17,18 @@ export default function work() {
           </li>
         </ul>
         <ul className='work__list'>
+          <li className='work__list-item'>
+            <a href='https://www.focus-wp-gatsby-theme.com/' target='_blank'>
+              Focus - Headless Wordpress Gatsby Theme
+            </a>
+            <a
+              href='https://github.com/MichaelIrvine/focus-worpress-gatsby-theme'
+              target='_blank'
+            >
+              github.com/MichaelIrvine/focus-worpress-gatsby-theme
+            </a>
+            <img className='work__list-item-image' src={ImageFocusWP}></img>
+          </li>
           <li className='work__list-item'>
             <a href='https://east29th.com/' target='_blank'>
               East 29th
