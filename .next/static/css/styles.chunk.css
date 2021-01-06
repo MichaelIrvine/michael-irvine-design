@@ -147,14 +147,22 @@ span {
     font-style: italic;
     color: #adadad; }
 
-body, html, a, button, * {
+body,
+html,
+a,
+button,
+* {
   cursor: none; }
   @media screen and (max-width: 768px) {
-    body, html, a, button, * {
+    body,
+    html,
+    a,
+    button,
+    * {
       cursor: default; } }
 
 body {
-  background-color: #021301; }
+  background-color: #000000; }
 
 button {
   padding: 0; }

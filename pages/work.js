@@ -2,7 +2,7 @@ import ImageAndi from '../public/images/andi-mcleish.jpg';
 import ImageChrono from '../public/images/chronometer-app.jpg';
 import ImageSeeker from '../public/images/image-seeker-app.jpg';
 import ImageEast29 from '../public/images/east-29th.jpg';
-import ImageFocusWP from '../public/images/focus-wp-gatsby.theme.jpg';
+import ImageFocusWP from '../public/images/focus-wp-gatsby-theme.jpg';
 
 export default function work() {
   return (
